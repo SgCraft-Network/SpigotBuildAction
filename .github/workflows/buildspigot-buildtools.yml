@@ -19,7 +19,7 @@ jobs:
         uses: "actions/setup-java@v2.1.0"
         with:
           distribution: "adopt"
-          java-version: "17"
+          java-version: "8"
 
       # Build Spigot by BuildTools
       - name: "Building Spigot"
